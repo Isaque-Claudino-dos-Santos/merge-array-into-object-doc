@@ -14,13 +14,14 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: "https://maio.github.io", // Your website URL
-  baseUrl: "/",
-  projectName: "maio.github.io",
-  organizationName: "maio",
-  trailingSlash: false,
-
+  url: "https://Isaque-Claudino-dos-Santos.github.io", // seu usuário GitHub
+  baseUrl: "/merge-array-into-object-doc/", // o nome do repositório com barra no início e no fim
   onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  organizationName: "Isaque-Claudino-dos-Santos", // seu usuário GitHub
+  projectName: "merge-array-into-object-doc", // nome do repositório
+  deploymentBranch: "gh-pages", // branch onde será publicado
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
